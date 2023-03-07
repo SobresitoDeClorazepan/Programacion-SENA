@@ -1,0 +1,83 @@
+
+    nav {
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      margin: 0 10px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      background-color: #333;
+    }
+    nav ul li:hover ul {
+      display: block;
+    }
+    nav ul li ul li {
+      margin: 0;
+      display: block;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="submit"] {
+      margin-top: 10px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 30px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f0f0f0;
+      }
+      form label {
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+      form input[type="text"],
+      form input[type="email"],
+      form input[type="url"],
+      form input[type="date"],
+      form input[type="time"],
+      form input[type="datetime"],
+      form input[type="month"],
+      form input[type="week"],
+      form input[type="number"],
+      form input[type="tel"],
+      form input[type="search"],
+      form input[type="color"] {
+        width: 50%;
+        padding: 10px;
+        border: 1px solid green;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        font-size: 16px;
+      }
+      form input[type="submit"] {
+        background-color:red;
+        color: #fff;
+        
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
